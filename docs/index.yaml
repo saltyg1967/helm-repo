@@ -1,14 +1,15 @@
 apiVersion: v1
 entries:
-  testchart:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2022-12-28T12:04:56.7409482Z"
-    description: A Helm chart for Kubernetes
-    digest: 47269e51060525ffaf754ac6d165726e015b4ac320f955c60d58b5e10db2d71a
-    name: testchart
-    type: application
+  alpine:
+  - apiVersion: v1
+    created: "2022-12-28T12:24:30.1436433Z"
+    description: Deploy a basic Alpine Linux pod
+    digest: cddbe39cf9b4b10a8aea3769264acec957509bf5bb46027f508f3bb2552960d5
+    home: https://k8s.io/helm
+    name: alpine
+    sources:
+    - https://github.com/kubernetes/helm
     urls:
-    - https://saltyg1967.github.io/helm-repo/testchart-0.1.0.tgz
-    version: 0.1.0
-generated: "2022-12-28T12:04:56.7404477Z"
+    - https://saltyg1967.github.io/helm-repo/alpine-0.2.0.tgz
+    version: 0.2.0
+generated: "2022-12-28T12:24:30.138329Z"
